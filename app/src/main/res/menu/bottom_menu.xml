@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuToday"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_check_24"
+        android:title="TODAY"   />
+
+    <item
+        android:id="@+id/menuCalendar"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_event_available_24"
+        android:title="CALENDAR"   />
+
+    <item
+        android:id="@+id/menuCalorie"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calculate_24"
+        android:title="CALORIE"   />
+
+    <item
+        android:id="@+id/menuMap"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_place_24"
+        android:title="MAP"   />
+
+</menu>
